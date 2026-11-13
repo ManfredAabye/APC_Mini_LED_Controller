@@ -48,26 +48,9 @@ Windows-Befehlen zu.
 
 ## UI-Aufbau
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│ Modell: [APC Mini MK1 ▾]  [Verbinden]        Status: ...     │
-├───────────────────────────────────┬──────────────────────────┤
-│                                   │  Befehle                 │
-│  ┌───┬───┬───┬───┬───┬───┬───┬───┐│  ┌──────┬─────────────┐ │
-│  │56 │57 │58 │59 │60 │61 │62 │63 ││  │ Note │ Befehl      │ │
-│  ├───┼───┼───┼───┼───┼───┼───┼───┤│  ├──────┼─────────────┤ │
-│  │48 │49 │50 │51 │52 │53 │54 │55 ││  │ 0    │ notepad.exe │ │
-│  ...                              ││  │ 8    │ calc        │ │
-│  ├───┼───┼───┼───┼───┼───┼───┼───┤│  └──────┴─────────────┘ │
-│  │ 0 │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 ││  [Befehl entfernen]      │
-│  └───┴───┴───┴───┴───┴───┴───┴───┘│                          │
-│  ┌───┬───┬───┬───┬───┬───┬───┬───┐│                          │
-│  │82 │83 │84 │85 │86 │87 │88 │89 ││                          │
-│  └───┴───┴───┴───┴───┴───┴───┴───┘│                          │
-│  Linksklick: Farbe setzen          │                          │
-│  Rechtsklick: Menü                 │                          │
-└───────────────────────────────────┴──────────────────────────┘
-```
+
+<img src="https://raw.githubusercontent.com/ManfredAabye/APC_Mini_LED_Controller/refs/heads/main/APC_Mini_LED_Controller_1.png" alt="Project Badge" width="500">
+
 
 - **Linksklick** auf ein Pad → setzt die LED auf **Rot** und färbt den Button.
 - **Rechtsklick** auf ein Pad → Kontextmenü mit:
