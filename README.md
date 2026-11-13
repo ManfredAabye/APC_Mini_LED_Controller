@@ -1,5 +1,7 @@
 # APC Mini LED Controller
 
+(Dieser ist in entwicklung, kann aber schon teilweise genutzt werden.)
+
 Steuert die LEDs des Akai APC Mini **MK1** und **MK2** über MIDI, zeigt die
 Pad-Anordnung als interaktives 8×8-Raster im UI an und ordnet Tasten
 Windows-Befehlen zu.
